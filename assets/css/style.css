@@ -1,0 +1,56 @@
+
+.main-container {
+    background-color: rgb(255, 227, 194);
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+<!--Navbar-->
+
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav a {
+    padding: 15px;
+}
+.navbar-text {
+    padding: 10px;    
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+<!--Call Out-->
+
+.callout-container {
+    
+    
+    padding: 30px;
+    
+}
+.about-container {
+    
+    
+}
+
+.text {
+
+    background-color: blue;
+    width: 400px;
+    
+    
+}
