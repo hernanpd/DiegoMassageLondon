@@ -1,56 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-.main-container {
-    background-color: rgb(255, 227, 194);
-    padding: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+body {
+    background-color: rgb(249, 235, 175);
+}
+
+a {
+    text-decoration: none;
+    color: yellow;
 }
 
 <!--Navbar-->
 
-.nav {
-    display: flex;
-    flex-direction: row;
+.main {
+   
 }
 
-.nav a {
-    padding: 15px;
+.nav-link {
+    color:yellow;
+    padding: .5rem;
 }
+
 .navbar-text {
-    padding: 10px;    
+    padding: .5rem;
+    color: white;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
+nav {
+    margin-bottom: 30px;
 }
+
+<!--Section-->
 
 section {
-    padding: 20px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    padding:50px;
 }
 
 <!--Call Out-->
 
 .callout-container {
-    
-    
-    padding: 30px;
-    
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
 }
 .about-container {
-    
-    
 }
 
 .text {
-
-    background-color: blue;
     width: 400px;
+    margin: 30px;
+    font-family: 'Inter', sans-serif;
+    font-size: large;
+}
+
+.col {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.oils {
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
+/* Footer */
+.footer-container {
     
-    
+    color: white;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 20px;
+}
+
+.footer {
+    text-align: center;
+}
+
+#brand {
+    font-family: 'Montserrat Alternates', sans-serif;
 }
